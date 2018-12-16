@@ -1,0 +1,87 @@
+#######################################
+# Syntax Coloring Map AudioPro
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+AudioPro	KEYWORD1
+AudioPro_FilePlayer	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+amplifierOn	KEYWORD2
+amplifierOff	KEYWORD2
+begin	KEYWORD2
+end	KEYWORD2
+reset	KEYWORD2
+softReset	KEYWORD2
+ReadWRAM	KEYWORD2
+WriteWRAM	KEYWORD2
+decodeTime	KEYWORD2
+getVolume	KEYWORD2
+setVolume	KEYWORD2
+volumeUp	KEYWORD2
+volumeDown	KEYWORD2
+dumpRegs	KEYWORD2
+setPlaySpeed	KEYWORD2
+getPlaySpeed	KEYWORD2
+getMonoMode	KEYWORD2
+setMonoMode	KEYWORD2
+setDifferentialOutput	KEYWORD2
+getDifferentialOutput	KEYWORD2
+playData	KEYWORD2
+playBuffer	KEYWORD2
+playROM	KEYWORD2
+stopPlaying	KEYWORD2
+stopSong	KEYWORD2
+readyForData	KEYWORD2
+applyPatch	KEYWORD2
+midiSetBank	KEYWORD2
+midiSetVolume	KEYWORD2
+midiSetInstrument	KEYWORD2
+noteOn	KEYWORD2
+noteOff	KEYWORD2
+setAmplifier	KEYWORD2
+getAmplifier	KEYWORD2
+prepareRecordOgg	KEYWORD2
+startRecordOgg	KEYWORD2
+stopRecordOgg	KEYWORD2
+recordedWordsWaiting	KEYWORD2
+recordedReadWord	KEYWORD2
+useInterrupt	KEYWORD2
+detachInterrupt	KEYWORD2
+getMusicName	KEYWORD2
+getMusicNum	KEYWORD2
+playMP3	KEYWORD2
+playTrack	KEYWORD2
+playFullFile	KEYWORD2
+pausePlaying	KEYWORD2
+stopped	KEYWORD2
+paused	KEYWORD2
+playingMusic	KEYWORD2
+flushCancel	KEYWORD2
+getStatus	KEYWORD2
+sineTest	KEYWORD2
+
+#######################################
+# Instances (KEYWORD3)
+#######################################
+MP3player	KEYWORD3
+musicPlayer	KEYWORD3
+midiPlayer	KEYWORD3
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+VS1053_RAW	LITERAL1
+DECODE	LITERAL1
+VOLUME	LITERAL1
+VS1053_PIN_MIDI	LITERAL1
+VS1053_PIN_XCS	LITERAL1
+VS1053_PIN_XDCS	LITERAL1
+VS1053_PIN_DREQ	LITERAL1
+SD_PIN_SEL	LITERAL1
+VS1053_TIMER0_DREQ	LITERAL1

@@ -1,0 +1,15 @@
+本次安装的驱动可以适用于以下产品:
+--Microduino CoreUSB
+--Microduino USBTTL
+--Microduino USBTTL-C
+--mCookie CoreUSB
+--mCookie USBTTL
+--mCookie USBTTL-C
+--mCookie mBattery
+--mCookie mCenter
+
+包含的驱动包括但不限于:FT232,CH34X,CP210X等芯片
+
+更多详细信息见:www.microduino.cn
+
+驱动版本号:20170805

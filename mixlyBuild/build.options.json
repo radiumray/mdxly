@@ -1,0 +1,10 @@
+{
+  "builtInLibrariesFolders": "E:\\mdxlyHHH\\microduinoIDE\\libraries",
+  "customBuildProperties": "build.path=mixlyBuild,build.warn_data_percentage=75",
+  "fqbn": "Microduino:avr:mddevice:cpu=16MHzatmega328",
+  "hardwareFolders": "E:\\mdxlyHHH\\microduinoIDE\\hardware",
+  "otherLibrariesFolders": "C:\\Users\\mayn\\Documents\\Arduino\\libraries",
+  "runtime.ide.version": "10806",
+  "sketchLocation": "E:\\mdxlyHHH\\testArduino\\testArduino.ino",
+  "toolsFolders": "E:\\mdxlyHHH\\.\\microduinoIDE\\tools-builder,E:\\mdxlyHHH\\.\\microduinoIDE\\hardware\\tools\\avr"
+}

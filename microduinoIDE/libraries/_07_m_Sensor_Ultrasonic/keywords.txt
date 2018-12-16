@@ -1,0 +1,22 @@
+####################################### 
+# Datatypes (KEYWORD1)
+#######################################
+
+Ultrasonic	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getDistance	KEYWORD2
+getVersion	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ULTRASONIC_ADDR_1	LITERAL1
+ULTRASONIC_ADDR_2	LITERAL1
+ULTRASONIC_ADDR_3	LITERAL1
+ULTRASONIC_ADDR_4	LITERAL1
+ULTRA_VERSION	LITERAL1

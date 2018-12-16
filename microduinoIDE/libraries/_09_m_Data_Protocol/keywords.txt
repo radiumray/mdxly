@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For Microduino_Protocol
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+ProtocolSer	KEYWORD1
+ProtocolZig	KEYWORD1
+ProtocolnRF	KEYWORD1
+SoftwareSerial	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+available	KEYWORD2
+readBytes	KEYWORD2
+readWords	KEYWORD2
+write	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+#######################################

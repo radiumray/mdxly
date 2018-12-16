@@ -1,0 +1,17 @@
+[
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "E:\\mdxlyHHH\\microduinoIDE\\hardware\\Microduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "E:\\mdxlyHHH\\microduinoIDE\\hardware\\Microduino\\avr\\variants\\standard"
+  },
+  {
+    "Sourcefile": "E:\\mdxlyHHH\\mixlyBuild\\sketch\\testArduino.ino.cpp",
+    "Include": "",
+    "Includepath": ""
+  }
+]

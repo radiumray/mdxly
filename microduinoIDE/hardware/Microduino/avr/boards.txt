@@ -1,0 +1,259 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+menu.usb=UploadType
+
+mddevice.name= Microduino/mCookie-device
+
+## CH340
+mddevice.vid.0=0x1a86
+mddevice.pid.0=0x7523
+## FT232
+mddevice.vid.1=0x0403
+mddevice.pid.1=0x6001
+## CP2102
+mddevice.vid.2=0x10c4
+mddevice.pid.2=0xea60
+##32U4
+mddevice.vid.3=0x2341
+mddevice.pid.3=0x0036
+mddevice.vid.4=0x2341
+mddevice.pid.4=0x8036
+mddevice.vid.5=0x2A03
+mddevice.pid.5=0x0036
+mddevice.vid.6=0x2A03
+mddevice.pid.6=0x8036
+
+
+##Microduino Core (328p)
+##############################################################
+
+## ATmega328 16M
+## -------------------------------------------------
+mddevice.menu.cpu.16MHzatmega328=Microduino/mCookie-Core (328p)@16M,5V
+
+mddevice.menu.cpu.16MHzatmega328.upload.tool=avrdude
+mddevice.menu.cpu.16MHzatmega328.upload.protocol=arduino
+
+mddevice.menu.cpu.16MHzatmega328.upload.maximum_size=32256
+mddevice.menu.cpu.16MHzatmega328.upload.maximum_data_size=2048
+mddevice.menu.cpu.16MHzatmega328.upload.speed=115200
+
+mddevice.menu.cpu.16MHzatmega328.build.board=AVR_PRO
+mddevice.menu.cpu.16MHzatmega328.build.core=arduino
+mddevice.menu.cpu.16MHzatmega328.build.variant=standard
+
+mddevice.menu.cpu.16MHzatmega328.build.mcu=atmega328p
+mddevice.menu.cpu.16MHzatmega328.build.f_cpu=16000000L
+
+mddevice.menu.cpu.16MHzatmega328.bootloader.tool=avrdude
+mddevice.menu.cpu.16MHzatmega328.bootloader.unlock_bits=0x3F
+mddevice.menu.cpu.16MHzatmega328.bootloader.lock_bits=0x0F
+
+mddevice.menu.cpu.16MHzatmega328.bootloader.low_fuses=0xFF
+mddevice.menu.cpu.16MHzatmega328.bootloader.high_fuses=0xDE
+mddevice.menu.cpu.16MHzatmega328.bootloader.extended_fuses=0x05
+mddevice.menu.cpu.16MHzatmega328.bootloader.file=optiboot/optiboot_micro_328p_16m.hex
+
+## ATmega328 8M
+## --------------------------------------------------
+mddevice.menu.cpu.8MHzatmega328=Microduino/mCookie-Core (328p)@8M,3.3V
+
+mddevice.menu.cpu.8MHzatmega328.upload.tool=avrdude
+mddevice.menu.cpu.8MHzatmega328.upload.protocol=arduino
+
+mddevice.menu.cpu.8MHzatmega328.upload.maximum_size=32256
+mddevice.menu.cpu.8MHzatmega328.upload.maximum_data_size=2048
+mddevice.menu.cpu.8MHzatmega328.upload.speed=57600
+
+mddevice.menu.cpu.8MHzatmega328.build.board=AVR_PRO
+mddevice.menu.cpu.8MHzatmega328.build.core=arduino
+mddevice.menu.cpu.8MHzatmega328.build.variant=standard
+
+mddevice.menu.cpu.8MHzatmega328.build.mcu=atmega328p
+mddevice.menu.cpu.8MHzatmega328.build.f_cpu=8000000L
+
+mddevice.menu.cpu.8MHzatmega328.bootloader.tool=avrdude
+mddevice.menu.cpu.8MHzatmega328.bootloader.unlock_bits=0x3F
+mddevice.menu.cpu.8MHzatmega328.bootloader.lock_bits=0x0F
+
+mddevice.menu.cpu.8MHzatmega328.bootloader.low_fuses=0xFF
+mddevice.menu.cpu.8MHzatmega328.bootloader.high_fuses=0xDE
+mddevice.menu.cpu.8MHzatmega328.bootloader.extended_fuses=0x05
+mddevice.menu.cpu.8MHzatmega328.bootloader.file=optiboot/optiboot_micro_328p_8m.hex
+
+
+##Microduino Core+ (644pa)
+##############################################################
+
+## ATmega644 16M
+## -------------------------------------------------
+mddevice.menu.cpu.16MHzatmega644=Microduino/mCookie-Core+ (644pa)@16M,5V
+
+mddevice.menu.cpu.16MHzatmega644.upload.tool=avrdude
+mddevice.menu.cpu.16MHzatmega644.upload.protocol=arduino
+
+mddevice.menu.cpu.16MHzatmega644.upload.maximum_size=64512
+mddevice.menu.cpu.16MHzatmega644.upload.maximum_data_size=4096
+mddevice.menu.cpu.16MHzatmega644.upload.speed=115200
+
+mddevice.menu.cpu.16MHzatmega644.build.board=AVR_PLUS
+mddevice.menu.cpu.16MHzatmega644.build.core=arduino
+mddevice.menu.cpu.16MHzatmega644.build.variant=plus
+
+mddevice.menu.cpu.16MHzatmega644.build.mcu=atmega644p
+mddevice.menu.cpu.16MHzatmega644.build.f_cpu=16000000L
+
+mddevice.menu.cpu.16MHzatmega644.bootloader.tool=avrdude
+mddevice.menu.cpu.16MHzatmega644.bootloader.unlock_bits=0x3F
+mddevice.menu.cpu.16MHzatmega644.bootloader.lock_bits=0x0F
+
+mddevice.menu.cpu.16MHzatmega644.bootloader.low_fuses=0xFF
+mddevice.menu.cpu.16MHzatmega644.bootloader.high_fuses=0xDE
+mddevice.menu.cpu.16MHzatmega644.bootloader.extended_fuses=0xFD
+mddevice.menu.cpu.16MHzatmega644.bootloader.file=optiboot/optiboot_micro_644pa_16m.hex
+
+## ATmega644 8M
+## --------------------------------------------------
+mddevice.menu.cpu.8MHzatmega644=Microduino/mCookie-Core+ (644pa)@8M,3.3V
+
+mddevice.menu.cpu.8MHzatmega644.upload.tool=avrdude
+mddevice.menu.cpu.8MHzatmega644.upload.protocol=arduino
+
+mddevice.menu.cpu.8MHzatmega644.upload.maximum_size=64512
+mddevice.menu.cpu.8MHzatmega644.upload.maximum_data_size=4096
+mddevice.menu.cpu.8MHzatmega644.upload.speed=57600
+
+mddevice.menu.cpu.8MHzatmega644.build.board=AVR_PLUS
+mddevice.menu.cpu.8MHzatmega644.build.core=arduino
+mddevice.menu.cpu.8MHzatmega644.build.variant=plus
+
+mddevice.menu.cpu.8MHzatmega644.build.mcu=atmega644p
+mddevice.menu.cpu.8MHzatmega644.build.f_cpu=8000000L
+
+mddevice.menu.cpu.8MHzatmega644.bootloader.tool=avrdude
+mddevice.menu.cpu.8MHzatmega644.bootloader.unlock_bits=0x3F
+mddevice.menu.cpu.8MHzatmega644.bootloader.lock_bits=0x0F
+
+mddevice.menu.cpu.8MHzatmega644.bootloader.low_fuses=0xFF
+mddevice.menu.cpu.8MHzatmega644.bootloader.high_fuses=0xDE
+mddevice.menu.cpu.8MHzatmega644.bootloader.extended_fuses=0xFD
+mddevice.menu.cpu.8MHzatmega644.bootloader.file=optiboot/optiboot_micro_644pa_8m.hex
+
+##Microduino Core+ (1284pa)
+##############################################################
+
+## ATmega1284 16M
+## -------------------------------------------------
+mddevice.menu.cpu.16MHzatmega1284=Microduino/mCookie-Core+ (1284pa)@16M,5V
+
+mddevice.menu.cpu.16MHzatmega1284.upload.tool=avrdude
+mddevice.menu.cpu.16MHzatmega1284.upload.protocol=arduino
+
+mddevice.menu.cpu.16MHzatmega1284.upload.maximum_size=130048
+mddevice.menu.cpu.16MHzatmega1284.upload.maximum_data_size=16384
+mddevice.menu.cpu.16MHzatmega1284.upload.speed=115200
+
+mddevice.menu.cpu.16MHzatmega1284.build.board=AVR_PLUS
+mddevice.menu.cpu.16MHzatmega1284.build.core=arduino
+mddevice.menu.cpu.16MHzatmega1284.build.variant=plus
+
+mddevice.menu.cpu.16MHzatmega1284.build.mcu=atmega1284p
+mddevice.menu.cpu.16MHzatmega1284.build.f_cpu=16000000L
+
+mddevice.menu.cpu.16MHzatmega1284.bootloader.tool=avrdude
+mddevice.menu.cpu.16MHzatmega1284.bootloader.unlock_bits=0x3F
+mddevice.menu.cpu.16MHzatmega1284.bootloader.lock_bits=0x0F
+
+mddevice.menu.cpu.16MHzatmega1284.bootloader.low_fuses=0xFF
+mddevice.menu.cpu.16MHzatmega1284.bootloader.high_fuses=0xDE
+mddevice.menu.cpu.16MHzatmega1284.bootloader.extended_fuses=0xFD
+mddevice.menu.cpu.16MHzatmega1284.bootloader.file=optiboot/optiboot_micro_1284_16m.hex
+
+## ATmega1284 8M
+## --------------------------------------------------
+mddevice.menu.cpu.8MHzatmega1284=Microduino/mCookie-Core+ (1284pa)@8M,3.3V
+
+mddevice.menu.cpu.8MHzatmega1284.upload.tool=avrdude
+mddevice.menu.cpu.8MHzatmega1284.upload.protocol=arduino
+
+mddevice.menu.cpu.8MHzatmega1284.upload.maximum_size=130048
+mddevice.menu.cpu.8MHzatmega1284.upload.maximum_data_size=16384
+mddevice.menu.cpu.8MHzatmega1284.upload.speed=57600
+
+mddevice.menu.cpu.8MHzatmega1284.build.board=AVR_PLUS
+mddevice.menu.cpu.8MHzatmega1284.build.core=arduino
+mddevice.menu.cpu.8MHzatmega1284.build.variant=plus
+
+mddevice.menu.cpu.8MHzatmega1284.build.mcu=atmega1284p
+mddevice.menu.cpu.8MHzatmega1284.build.f_cpu=8000000L
+
+mddevice.menu.cpu.8MHzatmega1284.bootloader.tool=avrdude
+mddevice.menu.cpu.8MHzatmega1284.bootloader.unlock_bits=0x3F
+mddevice.menu.cpu.8MHzatmega1284.bootloader.lock_bits=0x0F
+
+mddevice.menu.cpu.8MHzatmega1284.bootloader.low_fuses=0xFF
+mddevice.menu.cpu.8MHzatmega1284.bootloader.high_fuses=0xDE
+mddevice.menu.cpu.8MHzatmega1284.bootloader.extended_fuses=0xFE
+mddevice.menu.cpu.8MHzatmega1284.bootloader.file=optiboot/optiboot_micro_1284_8m.hex 
+
+##Microduino Core USB
+##############################################################
+mddevice.menu.cpu.usb32u416m=Microduino/mCookie-Core USB (32u4)
+
+mddevice.menu.cpu.usb32u416m.upload.tool=avrdude
+mddevice.menu.cpu.usb32u416m.upload.protocol=avr109
+mddevice.menu.cpu.usb32u416m.upload.disable_flushing=true
+mddevice.menu.cpu.usb32u416m.upload.use_1200bps_touch=true
+mddevice.menu.cpu.usb32u416m.upload.wait_for_upload_port=true
+
+mddevice.menu.cpu.usb32u416m.upload.maximum_size=28672
+mddevice.menu.cpu.usb32u416m.upload.maximum_data_size=2560
+mddevice.menu.cpu.usb32u416m.upload.speed=57600
+
+mddevice.menu.cpu.usb32u416m.build.vid=0x2341
+mddevice.menu.cpu.usb32u416m.build.pid=0x8036
+mddevice.menu.cpu.usb32u416m.build.usb_product="Microduino-Core USB"
+mddevice.menu.cpu.usb32u416m.build.board=AVR_USB
+mddevice.menu.cpu.usb32u416m.build.core=arduino
+mddevice.menu.cpu.usb32u416m.build.variant=32u4
+mddevice.menu.cpu.usb32u416m.build.extra_flags={build.usb_flags}
+
+mddevice.menu.cpu.usb32u416m.build.mcu=atmega32u4
+mddevice.menu.cpu.usb32u416m.build.f_cpu=16000000L
+
+mddevice.menu.cpu.usb32u416m.bootloader.tool=avrdude
+mddevice.menu.cpu.usb32u416m.bootloader.unlock_bits=0x3F
+mddevice.menu.cpu.usb32u416m.bootloader.lock_bits=0x2F
+
+mddevice.menu.cpu.usb32u416m.bootloader.low_fuses=0xff
+mddevice.menu.cpu.usb32u416m.bootloader.high_fuses=0xd8
+mddevice.menu.cpu.usb32u416m.bootloader.extended_fuses=0xcb
+mddevice.menu.cpu.usb32u416m.bootloader.file=caterina/Caterina.hex
+
+##Microduino Core RF
+##############################################################
+mddevice.menu.cpu.16MHzatmega128rfa1=Microduino/mCookie-Core RF (128rfa1)
+
+mddevice.menu.cpu.16MHzatmega128rfa1.upload.tool=avrdude
+mddevice.menu.cpu.16MHzatmega128rfa1.upload.protocol=arduino
+
+mddevice.menu.cpu.16MHzatmega128rfa1.upload.maximum_size=126976
+mddevice.menu.cpu.16MHzatmega128rfa1.upload.maximum_data_size=16384
+mddevice.menu.cpu.16MHzatmega128rfa1.upload.speed=57600
+
+mddevice.menu.cpu.16MHzatmega128rfa1.build.board=AVR_RF
+mddevice.menu.cpu.16MHzatmega128rfa1.build.core=arduino
+mddevice.menu.cpu.16MHzatmega128rfa1.build.variant=RF
+
+mddevice.menu.cpu.16MHzatmega128rfa1.build.mcu=atmega128rfa1
+mddevice.menu.cpu.16MHzatmega128rfa1.build.f_cpu=16000000L
+
+mddevice.menu.cpu.16MHzatmega128rfa1.bootloader.tool=avrdude
+mddevice.menu.cpu.16MHzatmega128rfa1.bootloader.unlock_bits=0x3F
+mddevice.menu.cpu.16MHzatmega128rfa1.bootloader.lock_bits=0x0F
+
+mddevice.menu.cpu.16MHzatmega128rfa1.bootloader.low_fuses=0xff
+mddevice.menu.cpu.16MHzatmega128rfa1.bootloader.high_fuses=0xda
+mddevice.menu.cpu.16MHzatmega128rfa1.bootloader.extended_fuses=0xf5
+mddevice.menu.cpu.16MHzatmega128rfa1.bootloader.file=atmega/ATmegaBOOT_atmega128rfa1.hex
